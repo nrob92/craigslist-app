@@ -35,7 +35,7 @@ const urls = [
   // "https://raleigh.craigslist.org/search/raleigh-nc/cta?auto_make_model=bmw&auto_transmission=1&hasPic=1&lat=35.849&lon=-78.655&max_auto_miles=100000&max_price=12000&min_price=&purveyor=owner&search_distance=290",
 
   // "https://sacramento.craigslist.org/search/sacramento-ca/cta?auto_make_model=bmw&auto_transmission=1&hasPic=1&lat=38.584&lon=-121.466&max_auto_miles=100000&max_price=12000&min_price=&purveyor=owner&search_distance=250",
-]
+];
 
 (async () => {
   const cluster = await Cluster.launch({
