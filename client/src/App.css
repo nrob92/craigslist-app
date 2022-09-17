@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+
+.box > * {
+  margin: 10px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-body {
+  margin-top: 20px;
+}
